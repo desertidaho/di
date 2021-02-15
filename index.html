@@ -8,44 +8,46 @@
     <title>Desert Idaho</title>
     <link rel="stylesheet" href="assets/css/foundation.css">
   </head>
-<body>
+<body style="background-color: black; color: white; font-family: fantasy;">
 
-    <div class="grid-container">
+    <div class="grid-container grid-container-padded">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <h1>Desert Idaho</h1>
-          <p>Poems Inspired by Nature and Philosophy</p>
+          <h1 style="margin-top: 30px; font-style: italic; font-family: fantasy;">Desert Idaho</h1>
+          <p style="font-style: italic;">Poems Inspired by Nature and Philosophy</p>
         </div>
       </div>
 
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-            <p>Once you've exhausted the fun in this document, you should check out:</p>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+      <div class="grid-x grid-padding-x align-center">
+        <div class="large-6 medium-6 small-6 cell">
+            <img src="./assets/images/thesungiphy.gif" alt="rotating sun">
+        </div>
+      </div>
+
+      <!-- card -->
+        <div class="grid-x grid-margin-x align-center">
+          <div class="cell large-6 medium-6 small-6">
+            <button class="button" onclick="openReveal('#exampleModal1')" style="background-color: black;">
+              <div class="card" style="border: none; background-color: black; color: white;">
+                <div class="card-section">
+                  <h2 style="font-style: italic; font-family: fantasy;">The Poem Title</p>
+                </div>
+                <img src="./assets/images/aBeautifulLife.jpg" alt="poem picture" style="border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;">
               </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-              </div>
-              <div class="large-4 medium-4 medium-pull-2 cell">
-                <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-              </div>
-            </div>
+            </button>
           </div>
         </div>
+
+      <!-- reveal -->
+      <div class="reveal" id="exampleModal1" data-reveal style="color: black;">
+        <h1>Awesome. I Have It.</h1>
+        <p class="lead">Your couch. It is mine.</p>
+        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+
 
       <div class="grid-x grid-padding-x">
         <div class="large-8 medium-8 cell">
@@ -168,5 +170,12 @@
 
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>
+<script>
+  function openReveal(poem) {
+    console.log(poem)
+    let reveal = new Foundation.Reveal($(poem));
+    reveal.open();
+  }
+</script>
 </body>
 </html>
