@@ -9,7 +9,7 @@ export default class Poems {
       template += `
       <button class="button" onclick="openReveal('#${this.poemsArray[i].id}')" style="background-color: black;">
         <div class="card cell large-up-4 medium-up-3 small-up-2" style="border: none; background-color: black; color: white;">
-          <div class="card-section" style="background-image: linear-gradient(black 2px, rgb(77, 75, 75)); padding-bottom: 0px;">
+          <div class="card-section" style="background-image: linear-gradient(black 1px, rgb(38, 38, 38)); padding-bottom: 0px;">
             <h2 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</p>
           </div>
           <img src="./assets/images/${this.poemsArray[i].img}" alt="poem picture" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; width: 100vw;">
@@ -36,12 +36,10 @@ export default class Poems {
           </div>
         </div>
 
-        
       </div>
       `
     }
     return template
   }
-
 
 }
