@@ -24,8 +24,8 @@ export default class Poems {
         </button>
 
         <div class="grid-x grid-margin-x align-center align-spaced" style="font-size: 1.5rem;"">
-          <button class="button warning" src="https://www.amazon.com/gp/product/1792611633" target="_blank" style="color: Black;">Buy on Amazon</button>
-          <button class="button warning" src="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank" style="color: black;">Donate Bitcoin</button>
+          <a class="warning button" href="https://www.amazon.com/gp/product/1792611633" target="_blank" aria-labelledby="Amazon" style="color: Black;">Buy on Amazon</a>
+          <a class="warning button" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank"  aria-labelledby="Bitcoin" style="color: black;">Donate Bitcoin</a>
         </div>
 
         <div class="grid-x grid-margin-x align-center">
