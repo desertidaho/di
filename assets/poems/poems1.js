@@ -136,7 +136,7 @@ export default class Poems1 {
     Most were pleased for the scraps <br />
     Tossed to them from under the table, <br />
     He was not. <br />
-    He committed to stand with Julian, <br />
+    He chose to stand with Julian, <br />
     As truth will break their spines.`
 
     misstepsOfGoodIntentions = `

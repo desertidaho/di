@@ -173,7 +173,7 @@ export default class Poems2 {
     Plotting red death to a coward king on the run<br />
     Battered armies courageous in struggle,<br />
     Bishop takes pawn on f4.<br />
-    ...Check.  
+    Check...  
     `
 
     earth = `
