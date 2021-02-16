@@ -7,8 +7,8 @@ export default class Poems {
     let template = ""
     for (let i = 0; i < this.poemsArray.length; i++) {
       template += `
-        <button class="button" onclick="openReveal('#${this.poemsArray[i].id}')" style="background-color: black;">
-        <div class="card" style="border: none; background-color: black; color: white;">
+      <button class="button" onclick="openReveal('#${this.poemsArray[i].id}')" style="background-color: black;">
+        <div class="card cell large-up-4 medium-up-3 small-up-2" style="border: none; background-color: black; color: white;">
           <div class="card-section" style="background-image: linear-gradient(black 2px, rgb(77, 75, 75)); padding-bottom: 0px;">
             <h2 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</p>
           </div>
@@ -31,8 +31,8 @@ export default class Poems {
         </div>
 
         <div class="grid-x grid-margin-x align-center align-spaced" style="font-size: 1.5rem;">
-          <a href="https://www.amazon.com/gp/product/1792611633" target="_blank">Buy on Amazon</a>
-          <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank">Donate Bitcoin</a>
+          <a href="https://www.amazon.com/gp/product/1792611633" target="_blank" style="color: blue;">Buy on Amazon</a>
+          <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank" style="color: blue;">Donate Bitcoin</a>
         </div>
       </div>
       `
