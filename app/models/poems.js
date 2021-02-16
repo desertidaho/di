@@ -7,14 +7,16 @@ export default class Poems {
     let template = ""
     for (let i = 0; i < this.poemsArray.length; i++) {
       template += `
+      <div class="cell">
       <button class="button" onclick="openReveal('#${this.poemsArray[i].id}')" style="background-color: black;">
-        <div class="card cell large-up-4 medium-up-3 small-up-2" style="border: none; background-color: black; color: white;">
+        <div class="card" style="border: none; background-color: black; color: white;">
           <div class="card-section" style="background-image: linear-gradient(black 1px, rgb(38, 38, 38)); padding-bottom: 0px;">
             <h2 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</p>
           </div>
           <img src="./assets/images/${this.poemsArray[i].img}" alt="poem picture" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; width: 100vw;">
         </div>
       </button>
+      </div>
 
       <div class="reveal tiny" id="${this.poemsArray[i].id}" data-reveal style="color: black;">
         <h1 style="font-style: italic; font-family: fantasy; margin-top: 40px;">${this.poemsArray[i].title}</h1>
@@ -29,7 +31,7 @@ export default class Poems {
         </div>
 
         <div class="grid-x grid-margin-x align-center">
-          <div class="large-6 medium-6 small-6 cell" style="margin: 2rem 0rem;">
+          <div class="small-6 cell" style="margin: 2rem 0rem;">
             <a href="https://www.amazon.com/gp/product/1792611633" target="_blank">
               <img src="./assets/images/desertidahobook.png" alt="Desert Idaho book">
             </a>
