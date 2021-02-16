@@ -16,7 +16,7 @@ export default class Poems {
         </div>
       </button>
 
-      <div class="reveal small" id="${this.poemsArray[i].id}" data-reveal style="color: black;">
+      <div class="reveal tiny" id="${this.poemsArray[i].id}" data-reveal style="color: black;">
         <h1 style="font-style: italic; font-family: fantasy; margin-top: 40px;">${this.poemsArray[i].title}</h1>
         <p style="font-style: italic; margin-top: 1rem; margin-bottom: 3rem; font-size: 0.7rem;">${this.poemsArray[i].poem}</p>
         <button class="close-button" data-close aria-label="Close modal" type="button">
