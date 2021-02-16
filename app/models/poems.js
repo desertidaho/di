@@ -16,12 +16,18 @@ export default class Poems {
         </div>
       </button>
 
-      <div class="reveal" id="${this.poemsArray[i].id}" data-reveal style="color: black;">
+      <div class="reveal full" id="${this.poemsArray[i].id}" data-reveal style="color: black;">
         <h1 style="font-style: italic; font-family: fantasy; margin-top: 40px;">${this.poemsArray[i].title}</h1>
-        <p style="font-style: italic; margin: 1rem 0rem; font-size: 0.8rem;">${this.poemsArray[i].poem}</p>
+        <p style="font-style: italic; margin-top: 1rem; margin-bottom: 3rem; font-size: 0.7rem;">${this.poemsArray[i].poem}</p>
         <button class="close-button" data-close aria-label="Close modal" type="button">
          <span aria-hidden="true">&times;</span>
         </button>
+
+        <div class="grid-x grid-margin-x align-center align-spaced" style="font-size: 1.5rem;"">
+          <button class="button warning" src="https://www.amazon.com/gp/product/1792611633" target="_blank" style="color: Black;">Buy on Amazon</button>
+          <button class="button warning" src="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank" style="color: black;">Donate Bitcoin</button>
+        </div>
+
         <div class="grid-x grid-margin-x align-center">
           <div class="large-6 medium-6 small-6 cell" style="margin: 2rem 0rem;">
             <a href="https://www.amazon.com/gp/product/1792611633" target="_blank">
@@ -30,10 +36,7 @@ export default class Poems {
           </div>
         </div>
 
-        <div class="grid-x grid-margin-x align-center align-spaced" style="font-size: 1.5rem;">
-          <a href="https://www.amazon.com/gp/product/1792611633" target="_blank" style="color: blue;">Buy on Amazon</a>
-          <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank" style="color: blue;">Donate Bitcoin</a>
-        </div>
+        
       </div>
       `
     }
