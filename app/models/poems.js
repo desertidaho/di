@@ -29,8 +29,8 @@ export default class Poems {
           </button>
         </div>
         <div class="grid-x grid-margin-x align-center" style="margin-top: 0rem; margin-bottom: 2rem;">
-          <audio controls>
-            <source src="./assets/audio/${this.poemsArray[i].audio}" type="audio/ogg">
+          <audio controls preload="auto">
+            <source src="./assets/audio/${this.poemsArray[i].audio}" type="audio/wav">
           </audio>
         </div>
         <div class="grid-x grid-margin-x align-center" style="font-size: 1.5rem; margin-bottom: 3rem;">
