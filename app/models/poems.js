@@ -30,7 +30,7 @@ export default class Poems {
         </div>
         <div class="grid-x grid-margin-x align-center" style="font-size: 1.5rem; margin-bottom: 3rem;">
           <a class="warning button" href="https://www.amazon.com/gp/product/1792611633" target="_blank" aria-labelledby="Amazon" style="color: Black;">Buy on Amazon</a>
-          <a class="warning button" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank"  aria-labelledby="Bitcoin" style="color: black; margin-left: 5rem;">Donate Bitcoin</a>
+          <a class="warning button" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank"  aria-labelledby="Bitcoin" style="color: black; margin-left: 3rem;">Donate Bitcoin</a>
         </div>
       </div>
       `
