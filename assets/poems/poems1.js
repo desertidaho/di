@@ -717,9 +717,9 @@ export default class Poems1 {
         let data =
             [
                 { id: "happy-people", img: "happyPeople.jpg", title: "Happy People", poem: this.happyPeople, audio: "happyPeople.wav" },
-                { id: "valiant-and-otherwise", img: "valiantAndOtherwise.jpg", title: "Valiant and Otherwise", poem: this.valiantAndOtherwise },
-                { id: "asteroids-orbit", img: "asteroidsOrbit.jpg", title: "Asteroids Orbit", poem: this.asteroidsOrbit },
-                { id: "dancing-silently", img: "dancingSilently.jpg", title: "Dancing Silently", poem: this.dancingSilently },
+                { id: "valiant-and-otherwise", img: "valiantAndOtherwise.jpg", title: "Valiant and Otherwise", poem: this.valiantAndOtherwise, audio: "valiantAndOtherwise.wav" },
+                { id: "asteroids-orbit", img: "asteroidsOrbit.jpg", title: "Asteroids Orbit", poem: this.asteroidsOrbit, audio: "asteroidsOrbit.wav" },
+                { id: "dancing-silently", img: "dancingSilently.jpg", title: "Dancing Silently", poem: this.dancingSilently, audio: "dancingSilently.wav" },
                 { id: "memories-of-another-time", img: "memoriesOfAnotherTime.jpg", title: "Memories of Another Time", poem: this.memoriesOfAnotherTime },
                 { id: "national-empire", img: "nationalEmpire.jpg", title: "National Empire", poem: this.nationalEmpire },
                 { id: "sans-anesthesia", img: "sansAnesthesia.jpg", title: "Sans Anesthesia", poem: this.sansAnesthesia },
