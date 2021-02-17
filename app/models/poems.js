@@ -23,7 +23,7 @@ export default class Poems {
           <h1 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</h1>
         </div>
         <div class="grid-x grid-margin-x align-center" style="margin-top: 10px;">
-          <p style="font-style: italic; margin-top: 1rem; margin-bottom: 3rem; font-size: 0.8rem;">${this.poemsArray[i].poem}</p>
+          <p style="font-style: italic; margin-top: 1rem; margin-bottom: 3rem; font-size: 0.75rem;">${this.poemsArray[i].poem}</p>
           <button class="close-button" data-close aria-label="Close modal" type="button" style="color: black;">
           <span aria-hidden="true">&times;</span>
           </button>
