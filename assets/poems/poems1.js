@@ -716,7 +716,7 @@ export default class Poems1 {
     poems1() {
         let data =
             [
-                { id: "happy-people", img: "happyPeople.jpg", title: "Happy People", poem: this.happyPeople },
+                { id: "happy-people", img: "happyPeople.jpg", title: "Happy People", poem: this.happyPeople, audio: "happyPeople.wav" },
                 { id: "valiant-and-otherwise", img: "valiantAndOtherwise.jpg", title: "Valiant and Otherwise", poem: this.valiantAndOtherwise },
                 { id: "asteroids-orbit", img: "asteroidsOrbit.jpg", title: "Asteroids Orbit", poem: this.asteroidsOrbit },
                 { id: "dancing-silently", img: "dancingSilently.jpg", title: "Dancing Silently", poem: this.dancingSilently },
