@@ -76,7 +76,7 @@ export default class Poems2 {
     Watch out for rocks along the way.”  
     `
 
-    fromTheBow = `
+    acrossTheUniverse = `
     From the bow of a great and mighty ship,<br />
     In a blackness mirrored by the moonless water,<br />
     A profound and humbling incomprehension<br />
@@ -547,7 +547,7 @@ export default class Poems2 {
                 { id: "birds", img: "birds.jpg", title: "Birds", poem: this.birds },
                 { id: "boundaries-are-drawn", img: "boundariesAreDrawn.jpg", title: "Boundaries are Drawn", poem: this.boundariesAreDrawn },
                 { id: "chase-after-the-mystery", img: "chaseAfterTheMystery.jpg", title: "Chase After the Mystery", poem: this.chaseAfterTheMystery },
-                { id: "from-the-bow", img: "fromTheBow.jpg", title: "From the Bow", poem: this.fromTheBow },
+                { id: "across-the-universe", img: "acrossTheUniverse.jpg", title: "Across the Universe", poem: this.acrossTheUniverse },
                 { id: "i-feel-differently", img: "iFeelDifferently.jpg", title: "I Feel Differently", poem: this.iFeelDifferently },
                 { id: "let-the-water", img: "letTheWater.jpg", title: "Let the Water", poem: this.letTheWater },
                 { id: "and-what", img: "andWhat.jpg", title: "And What", poem: this.andWhat },
