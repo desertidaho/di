@@ -18,30 +18,20 @@ export default class Poems {
         </button>
       </div>
 
-      <div class="reveal small" id="${this.poemsArray[i].id}" data-reveal style="color: black;">
-        <div class="grid-x grid-margin-x align-center" style="margin-top: 40px;">
-            <h1 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</h1>
+      <div class="reveal full" id="${this.poemsArray[i].id}" data-reveal style="color: black;">
+        <div class="grid-x grid-margin-x align-center" style="margin-top: 3rem;">
+          <h1 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</h1>
         </div>
         <div class="grid-x grid-margin-x align-center" style="margin-top: 10px;">
-          <p style="font-style: italic; margin-top: 1rem; margin-bottom: 3rem; font-size: 0.7rem;">${this.poemsArray[i].poem}</p>
-          <button class="close-button" data-close aria-label="Close modal" type="button">
+          <p style="font-style: italic; margin-top: 1rem; margin-bottom: 3rem; font-size: auto;">${this.poemsArray[i].poem}</p>
+          <button class="close-button" data-close aria-label="Close modal" type="button" style="color: black;">
           <span aria-hidden="true">&times;</span>
           </button>
         </div>
-
-        <div class="grid-x grid-margin-x align-center align-spaced" style="font-size: 1.5rem;"">
+        <div class="grid-x grid-margin-x align-center" style="font-size: 1.5rem; margin-bottom: 3rem;">
           <a class="warning button" href="https://www.amazon.com/gp/product/1792611633" target="_blank" aria-labelledby="Amazon" style="color: Black;">Buy on Amazon</a>
-          <a class="warning button" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank"  aria-labelledby="Bitcoin" style="color: black;">Donate Bitcoin</a>
+          <a class="warning button" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf" target="_blank"  aria-labelledby="Bitcoin" style="color: black; margin-left: 5rem;">Donate Bitcoin</a>
         </div>
-
-        <div class="grid-x grid-margin-x align-center">
-          <div class="small-6 cell" style="margin: 2rem 0rem;">
-            <a href="https://www.amazon.com/gp/product/1792611633" target="_blank">
-              <img src="./assets/images/desertidahobook.png" alt="Desert Idaho book">
-            </a>
-          </div>
-        </div>
-
       </div>
       `
     }
