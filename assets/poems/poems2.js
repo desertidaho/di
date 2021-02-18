@@ -571,15 +571,15 @@ export default class Poems2 {
                 { id: "yakutat-bay-crossing", img: "yakutatBayCrossing.jpg", title: "Yakutat Bay Crossing", poem: this.yakutatBayCrossing, audio: "yakutatBayCrossing.wav" },
                 { id: "painfully-true", img: "painfullyTrue.jpg", title: "Painfully True", poem: this.painfullyTrue, audio: "painfullyTrue.wav" },
                 { id: "la-silla", img: "laSilla.jpg", title: "La Silla", poem: this.laSilla, audio: "laSilla.wav" },
-                { id: "time-and-again", img: "timeAndAgain.jpg", title: "Time and Again", poem: this.timeAndAgain, audio: "" },
-                { id: "last-breath-leaves-you", img: "lastBreathLeavesYou.jpg", title: "Last Breath Leaves You", poem: this.lastBreathLeavesYou, audio: "" },
-                { id: "shifting-seas", img: "shiftingSeas.jpg", title: "Shifting Seas", poem: this.shiftingSeas, audio: "" },
-                { id: "nunavut", img: "nunavut.jpg", title: "Nunavut", poem: this.nunavut, audio: "" },
-                { id: "falcon-wings", img: "falconWings.jpg", title: "Falcon Wings", poem: this.falconWings, audio: "" },
-                { id: "transient-currents", img: "transientCurrents.jpg", title: "Transient Currents", poem: this.transientCurrents, audio: "" },
-                { id: "peaceful-acquiescence", img: "peacefulAcquiescence.jpg", title: "Peaceful Acquiescence", poem: this.peacefulAcquiescence, audio: "" },
-                { id: "shade-tree", img: "shadeTree.jpg", title: "Shade Tree", poem: this.shadeTree, audio: "" },
-                { id: "wanting-ceaselessly", img: "wantingCeaselessly.jpg", title: "Wanting Ceaselessly", poem: this.wantingCeaselessly, audio: "" }
+                { id: "time-and-again", img: "timeAndAgain.jpg", title: "Time and Again", poem: this.timeAndAgain, audio: "timeAndAgain.wav" },
+                { id: "last-breath-leaves-you", img: "lastBreathLeavesYou.jpg", title: "Last Breath Leaves You", poem: this.lastBreathLeavesYou, audio: "lastBreathLeavesYou.wav" },
+                { id: "shifting-seas", img: "shiftingSeas.jpg", title: "Shifting Seas", poem: this.shiftingSeas, audio: "shiftingSeas.wav" },
+                { id: "nunavut", img: "nunavut.jpg", title: "Nunavut", poem: this.nunavut, audio: "nunavut.wav" },
+                { id: "falcon-wings", img: "falconWings.jpg", title: "Falcon Wings", poem: this.falconWings, audio: "falconWings.wav" },
+                { id: "transient-currents", img: "transientCurrents.jpg", title: "Transient Currents", poem: this.transientCurrents, audio: "transientCurrents.wav" },
+                { id: "peaceful-acquiescence", img: "peacefulAcquiescence.jpg", title: "Peaceful Acquiescence", poem: this.peacefulAcquiescence, audio: "peacefulAcquiescence.wav" },
+                { id: "shade-tree", img: "shadeTree.jpg", title: "Shade Tree", poem: this.shadeTree, audio: "shadeTree.wav" },
+                { id: "wanting-ceaselessly", img: "wantingCeaselessly.jpg", title: "Wanting Ceaselessly", poem: this.wantingCeaselessly, audio: "wantingCeaselessly.wav" }
             ]
         return data
     }
