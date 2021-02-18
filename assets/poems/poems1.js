@@ -750,14 +750,14 @@ export default class Poems1 {
                 { id: "dive-headlong", img: "diveHeadlong.jpg", title: "Dive Headlong", poem: this.diveHeadlong, audio: "diveHeadlong.wav" },
                 { id: "toward-the-distant-mountain", img: "towardTheDistantMountain.jpg", title: "Toward the Distant Mountain", poem: this.towardTheDistantMountain, audio: "towardTheDistantMountain.wav" },
                 { id: "washes-clean-the-past", img: "washesCleanThePast.jpg", title: "Washes Clean the Past", poem: this.washesCleanThePast, audio: "washesCleanThePast.wav" },
-                { id: "near-to-the-canyon", img: "nearToTheCanyon.jpg", title: "Near to the Canyon", poem: this.nearToTheCanyon },
-                { id: "wandering-winds", img: "wanderingWinds.jpg", title: "Wandering Winds", poem: this.wanderingWinds },
-                { id: "desert-idaho", img: "desertIdaho.jpg", title: "Desert Idaho", poem: this.desertIdaho },
-                { id: "even-the-truest", img: "evenTheTruest.jpg", title: "Even the Truest", poem: this.evenTheTruest },
-                { id: "trust-love", img: "trustLove.jpg", title: "Trust Love", poem: this.trustLove },
-                { id: "news-swirls", img: "newsSwirls.jpg", title: "News Swirls", poem: this.newsSwirls },
-                { id: "as-you-move-boldly", img: "asYouMoveBoldly.jpg", title: "As You Move Boldly", poem: this.asYouMoveBoldly },
-                { id: "duty-to-adventure", img: "dutyToAdventure.jpg", title: "Duty to Adventure", poem: this.dutyToAdventure }
+                { id: "near-to-the-canyon", img: "nearToTheCanyon.jpg", title: "Near to the Canyon", poem: this.nearToTheCanyon, audio: "nearToTheCanyon.wav" },
+                { id: "wandering-winds", img: "wanderingWinds.jpg", title: "Wandering Winds", poem: this.wanderingWinds, audio: "wanderingWinds.wav" },
+                { id: "desert-idaho", img: "desertIdaho.jpg", title: "Desert Idaho", poem: this.desertIdaho, audio: "desertIdaho.wav" },
+                { id: "even-the-truest", img: "evenTheTruest.jpg", title: "Even the Truest", poem: this.evenTheTruest, audio: "evenTheTruest.wav" },
+                { id: "trust-love", img: "trustLove.jpg", title: "Trust Love", poem: this.trustLove, audio: "trustLove.wav" },
+                { id: "news-swirls", img: "newsSwirls.jpg", title: "News Swirls", poem: this.newsSwirls, audio: "newsSwirls.wav" },
+                { id: "as-you-move-boldly", img: "asYouMoveBoldly.jpg", title: "As You Move Boldly", poem: this.asYouMoveBoldly, audio: "asYouMoveBoldly.wav" },
+                { id: "duty-to-adventure", img: "dutyToAdventure.jpg", title: "Duty to Adventure", poem: this.dutyToAdventure, audio: "dutyToAdventure.wav" }
             ]
         return data
     }
