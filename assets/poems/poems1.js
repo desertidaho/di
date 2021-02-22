@@ -39,13 +39,10 @@ export default class Poems1 {
     Fortify, multiply, resupply... </br>
     Demystify the horrible events that await us </br>
     As diversion from the truth— </br>
-    Powerful financial terrorists and spies </br>
+    Powerful financial terrorists </br>
     Undermine capitalism, our freedoms </br>
     In their ravenous lust for power </br>
     They print endless amounts of money. </br>
-    Financial terrorists enslave all </br>
-    With lockdowns and masks </br>
-    For the disease created in a lab and unleashed upon us. </br>
     What if the world is not as they describe? </br>
     Younger Dryas caused our social amnesia </br>
     From those that lived before us. </br>
@@ -55,10 +52,7 @@ export default class Poems1 {
     The ability for a [not] trusted few to control the money supply. </br>
     A just society requires not using fiat fake money! </br>
     End the madness of vile centralized banking— </br>
-    Fewer bombs will drop from the sky. </br>
-    How will we be remembered, if at all? </br>
-    Get ready for their new monetary paradigm, </br>
-    Doppler reveals it’s very near.
+    Fewer bombs will drop from the sky.
     `
 
     dancingSilently = `
@@ -131,7 +125,7 @@ export default class Poems1 {
     To their own confinements, yet <br />
     The virulent debasements did sneak past them <br />
     In the night of hundred year scheme, <br />
-    Bankers, business, politicians dissected them <br />
+    Bankers and politicians dissected them <br />
     Sans anesthesia. <br />
     Most were pleased for the scraps <br />
     Tossed to them from under the table, <br />
