@@ -11,16 +11,16 @@ export default class Poems {
         <button class="button" onclick="openReveal('#${this.poemsArray[i].id}')" style="background-color: black;">
           <div class="card" style="border: none; background-color: black; color: white;">
             <div class="card-section" style="background-image: linear-gradient(black 1px, rgb(38, 38, 38)); padding-bottom: 0px;">
-              <h2 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</p>
+              <h2 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</h2>
            </div>
-           <img src="./assets/images/${this.poemsArray[i].img}" alt="poem picture" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; width: 100vw; height: 40vh; object-fit: cover;">
+           <img src="./assets/images/${this.poemsArray[i].img}" alt="poem picture" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; width: 100vw; height: 35vh; object-fit: cover;">
           </div>
         </button>
       </div>
 
       <div class="reveal full" id="${this.poemsArray[i].id}" data-reveal style="color: black;">
         <div class="grid-x grid-margin-x align-center" style="margin-top: 3rem;">
-          <h1 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</h1>
+          <h2 style="font-style: italic; font-family: fantasy;">${this.poemsArray[i].title}</h2>
         </div>
         <div class="grid-x grid-margin-x align-center" style="margin-top: 10px;">
           <p style="font-style: italic; margin-top: 1rem; margin-bottom: 3rem; font-size: 0.75rem;">${this.poemsArray[i].poem}</p>
